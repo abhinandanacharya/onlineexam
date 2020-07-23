@@ -1,14 +1,14 @@
 <?php
 include 'header.inc.php';
 ?>
-
-<div class="card">
-    <div class="card-header">
+<br/>
+<div class="card card-css">
+    <div class="card-header ">
         <div class="row">
             <div class="col-md-9">
                 <h3 class="panel-title">Online Exam List</h3>
             </div>
-            <div class="col-md-3" align="right">
+            <div class="col-md-3 card-btn" align="right">
                 <button type="button" id="add_button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalCenter">Add Exam</button>
             </div>
         </div>
@@ -25,7 +25,7 @@ include 'header.inc.php';
           <span aria-hidden="true">&times;</span>
       </button>
   </div>
-  
+
   <div class="modal-body">
     <div class="form-group">
         <div class="row">
